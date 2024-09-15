@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Landing Page</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/script/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;200;300;400;500;600;700;800;900;1,100..900&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body class="main-bg">
+
+  <input type="checkbox" id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button" unchecked>
+  <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="closeMenu()">
+        <a href="#home">FELIPE</a>
+      </h1>
+          
+      <nav>
+        <ul onclick="closeMenu()">
+          <li><a href="#intro">Introdução</a></li>
+          <li><a href="#grid-one">Sobre Algo</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#grid-two">Outros Tópicos</a></li>
+          <li><a href="#pricing">Preços</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>TITULO IMPORTANTE SOBRE ALGO </h2>
+        <p>Uma breve descrição importante sobre algo muito importante, porque é importante,
+          então claramente importa, logo a importância fez com que importasse.
+        </p>
+      </div>
+
+      <div class="intro-img">
+        <img src="assets/img/javascript-not-optimezed.svg" alt="logo de html, css e js">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>TÓPICOS</h2>
+      <p>1 Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Eaque quidem, veritatis distinctio doloremque 
+          aut earum atque aspernatur suscipit in asperiores culpa
+            cumque facere sint molestiae. Beatae excepturi eius 
+            quos consequuntur.</p>
+      <p>2 Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Eaque quidem, veritatis distinctio doloremque 
+          aut earum atque aspernatur suscipit in asperiores culpa
+            cumque facere sint molestiae. Beatae excepturi eius 
+            quos consequuntur.</p>
+      <p>3 Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Eaque quidem, veritatis distinctio doloremque 
+          aut earum atque aspernatur suscipit in asperiores culpa
+            cumque facere sint molestiae. Beatae excepturi eius 
+            quos consequuntur.</p>
+    </div>
+  </section>
+
+  <section id="grid-one" class="grid-one main-bg section">
+
+      <div class="main-content grid-one-content">
+
+          <h2 class="grid-main-heading">PORQUÊ SE IMPORTAR</h2>
+          <p class="grid-description">Se importe por favor!</p>
+
+          <div class="grid">
+            <article>
+              <h3>Título</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, unde, animi enim ea vel praesentium cum voluptatibus ad accusamus perspiciatis obcaecati laborum rerum? Numquam, facilis dolores expedita natus incidunt amet!</p>
+            </article>
+            <article>
+              <h3>Título</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, unde, animi enim ea vel praesentium cum voluptatibus ad accusamus perspiciatis obcaecati laborum rerum? Numquam, facilis dolores expedita natus incidunt amet!</p>
+            </article>
+            <article>
+              <h3>Título</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, unde, animi enim ea vel praesentium cum voluptatibus ad accusamus perspiciatis obcaecati laborum rerum? Numquam, facilis dolores expedita natus incidunt amet!</p>
+            </article>
+          </div>
+      </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+
+    <div class="main-content grid-one-content">
+
+        <h2 class="grid-main-heading">Galeria</h2>
+        <p class="grid-description">Uma breve coletânea de fotos aleatórias</p>
+
+        <div class="grid">
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=1" alt="Imagem aleatória gerada por Lorem Picsum">
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=2" alt="Imagem aleatória gerada por Lorem Picsum">
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=3" alt="Imagem aleatória gerada por Lorem Picsum">
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=4" alt="Imagem aleatória gerada por Lorem Picsum">
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=5" alt="Imagem aleatória gerada por Lorem Picsum">
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=6" alt="Imagem aleatória gerada por Lorem Picsum">
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="grid-two" class="grid-one main-bg section">
+
+    <div class="main-content grid-one-content">
+
+        <h2 class="grid-main-heading">Outros tópicos</h2>
+        <p class="grid-description">Uma breve descrição de outros tópicos</p>
+
+        <div class="grid">
+          <article>
+            <h3>Título</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, unde, animi enim ea vel praesentium cum voluptatibus ad accusamus perspiciatis obcaecati laborum rerum? Numquam, facilis dolores expedita natus incidunt amet!</p>
+          </article>
+          <article>
+            <h3>Título</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, unde, animi enim ea vel praesentium cum voluptatibus ad accusamus perspiciatis obcaecati laborum rerum? Numquam, facilis dolores expedita natus incidunt amet!</p>
+          </article>
+          <article>
+            <h3>Título</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, unde, animi enim ea vel praesentium cum voluptatibus ad accusamus perspiciatis obcaecati laborum rerum? Numquam, facilis dolores expedita natus incidunt amet!</p>
+          </article>
+        </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Preços</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Eaque quidem, veritatis distinctio doloremque 
+          aut earum atque aspernatur suscipit in asperiores culpa
+            cumque facere sint molestiae. Beatae excepturi eius 
+            quos consequuntur.</p>
+      <div class="responsible-table">
+        <table>
+          <caption>Tabela de Preços</caption>
+
+          <thead>
+            <tr>
+              <th>Title 1</th>
+              <th>Title 2</th>
+              <th>Title 3</th>
+              <th>Title 4</th>
+              <th>Title 5</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Lorem</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 4</td>
+              <td>Content 5</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 4</td>
+              <td>Content 5</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 4</td>
+              <td>Content 5</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Testando</td>
+            </tr>
+          </tfoot>
+
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Contato</h2>
+        <p>Escreve ai tudo que vou roubar seus dados haha xD</p>
+      </div>
+
+      <div class="intro-img">
+        <img src="assets/img/javascript-not-optimezed.svg" alt="logo de html, css e js">
+      </div>
+
+      <div class="contact-form">
+
+        <fieldset class="form-grid">
+          <legend>Contact Me</legend>
+          <div class="form-group">
+            <label for="first-name ">Primeiro Nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Primeiro Nome">
+          </div>
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+          </div>
+          <div class="form-group full-width">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+          </div>
+          <div class="form-group full-width">
+            <button type="submit">Enviar Mensagem</button>
+          </div>
+
+        </fieldset>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel"nofollow" target="_blank" href="https://www.linkedin.com/in/felipefreitasof/">Feito por <strong>Felipe Eduardo </strong><span>&#128512;</span>
+    </a></p>
+  </footer>
+
+  <a class="back-to-top" href="#"><span>&#8593;</span></a>
+</body>
+
+</html>
